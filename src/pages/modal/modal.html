@@ -1,0 +1,15 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>modal</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  {{nombre}} - {{edad}}
+  <button ion-button block color="primary" (click)="cerrar_con_parametros()">Cerrar con parametros</button>
+  <button ion-button block color="secondary" (click)="cerrar_sin_parametros()">Cerrar sin parametros</button>
+
+</ion-content>
